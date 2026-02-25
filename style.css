@@ -15,13 +15,17 @@ nav{
     border-bottom: 1px solid white;
     backdrop-filter: blur 15px;
     margin-bottom: Zrem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo{
     font-size: 1.8rem;
     font-weight: 700;
     color: darkolivegreen;
-    letter-spacing: 1px;
+        letter-spacing: 1px;
 }
 
 .nav-links{
@@ -40,6 +44,6 @@ nav{
 }
 
 .nav-links li a:hover{
-    color:darkolivegreen;
-    text-shadow: 0 0 3px rgb(54, 66, 33);
+    color: rgb(166, 181, 139);
+    
 }
