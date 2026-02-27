@@ -23,7 +23,7 @@ nav{
 
 .logo{
     font-size: 1.8rem;
-    font-weight: 700;
+    font-weight: 600;
     color: darkolivegreen;
         letter-spacing: 1px;
 }
@@ -49,5 +49,22 @@ nav{
 }
 
 h1{
-    margin-left: 100px;
+    margin: 50px;
+    /*margin-top: 50px*/
+    font-size: 70px;
 }
+
+p{
+    margin-left: 50px;
+    font-size: 35px;
+    display: grid;
+    grid-template-columns: 75%;
+    grid-column: 2;
+}
+
+/*.square{
+    width: 150px;
+    height: 200px;
+    background: forestgreen;
+}
+    */
