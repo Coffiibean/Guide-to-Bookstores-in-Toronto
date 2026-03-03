@@ -11,7 +11,7 @@ body{
 nav{
     width: 100%;
     padding: 1rem 5%;
-    background:bisque;
+    background:rgb(235, 202, 165);
     border-bottom: 1px solid white;
     backdrop-filter: blur 15px;
     margin-bottom: Zrem;
@@ -49,8 +49,22 @@ nav{
 }
 
 h1{
-    font-size: 80px;
-    margin: 100px;
-    margin-top: 150px;
-    text-align: center;
+    margin: 50px;
+    /*margin-top: 50px*/
+    font-size: 70px;
 }
+
+p{
+    margin-left: 50px;
+    font-size: 35px;
+    display: grid;
+    grid-template-columns: 75%;
+    grid-column: 2;
+}
+
+/*.square{
+    width: 150px;
+    height: 200px;
+    background: forestgreen;
+}
+    
