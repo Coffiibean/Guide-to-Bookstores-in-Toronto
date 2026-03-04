@@ -25,7 +25,7 @@ nav{
     font-size: 1.8rem;
     font-weight: 600;
     color: darkolivegreen;
-        letter-spacing: 1px;
+        letter-spacing: 0.5px;
 }
 
 .nav-links{
@@ -46,11 +46,12 @@ nav{
 .nav-links li a:hover{
     color: rgb(166, 181, 139);
     
+    
 }
 
 h1{
     font-size: 80px;
     margin: 100px;
-    margin-top: 150px;
+    margin-top: 100px;
     text-align: center;
 }
