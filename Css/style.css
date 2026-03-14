@@ -81,3 +81,7 @@ p{
     color: rgb(166, 181, 139);
     
 }
+
+img{
+   max-width: 50%;
+}
