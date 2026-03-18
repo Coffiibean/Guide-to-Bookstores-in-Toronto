@@ -54,13 +54,14 @@ nav{
     margin-top: 20px
 }
 
-p{
+.about {
     margin-left: 50px;
     font-size: 35px;
     display: grid;
     grid-template-columns: 75%;
     grid-column: 2;
 }
+
 
 .cat-links{
     list-style: none;
