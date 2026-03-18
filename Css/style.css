@@ -60,10 +60,10 @@ h2{
 }
 
 .label{
-    margin-left: 30px;
     color: darkolivegreen;
     font-size: 40px;
     margin-bottom: 10px;
+    text-align: center;
     margin-top: 10px
 }
 
