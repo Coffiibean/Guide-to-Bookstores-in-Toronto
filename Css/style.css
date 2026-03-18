@@ -68,10 +68,9 @@ h2{
 }
 
 .about {
-    margin-left: 50px;
+    margin-left: 30px;
     font-size: 35px;
     max-width: 800px;
-    margin-left: auto;
     margin-right: auto;
     padding: 0 1rem;
 }
