@@ -3,6 +3,10 @@
  rgba(243, 227, 178, 1)- Light Yellow
  rgba(49, 15, 16, 1)- Dark Brown */
 
+@font-face {
+    font-family: 'Alfa Slab One';
+    src: url('Fonts/AlfaSlabOne-Regular.ttf') format('truetype');
+}
 
 *{
     margin: 0;
@@ -12,7 +16,7 @@
 }
 
 body{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Alfa Slab One', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgba(49, 15, 16, 1);
 }
 
