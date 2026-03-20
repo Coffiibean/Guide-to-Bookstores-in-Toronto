@@ -7,14 +7,16 @@
 
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:rgb(234, 227, 219) ;
+    background-image: url(Images/Comic\ Stand.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 
 nav{
     width: 100%;
-    padding: 1rem 5%;
-    background:rgb(205, 199, 192);
+    padding: 1.5rem 5%;
+    background-color: rgba(148, 114, 104, 0.5);  
     /*border-bottom: 1px solid white;*/
     backdrop-filter: blur 15px;
     margin-bottom: 0rem;
@@ -39,12 +41,12 @@ h2{
     margin-left: 1rem;
 }
 
-.logo{
+/*.logo{
     font-size: 1.8rem;
     font-weight: 600;
     color: darkolivegreen;
         letter-spacing: 0.5px;
-}
+}*/
 
 .nav-links{
     list-style: none;
@@ -54,10 +56,10 @@ h2{
 
 .nav-links li a{
     position: relative;
-    font-size: 1.05rem;
+    font-size: 1.25rem;
     font-weight: 500;
     text-decoration: none;
-    color:darkslategray;
+    color:white;
     transition: 0.3s;
 }
 
