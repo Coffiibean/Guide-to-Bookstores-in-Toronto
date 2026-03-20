@@ -7,9 +7,7 @@
 
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(Images/Comic\ Stand.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: rgba(49, 15, 16, 1);
 }
 
 
@@ -66,6 +64,14 @@ h2{
 .nav-links li a:hover{
     color: rgb(166, 181, 139);
     
+}
+
+.title{
+    font-size: 80px;
+    margin: 100px;
+    margin-top: 100px;
+    text-align: center;
+    color: rgba(243, 227, 178, 1);
 }
 
 .label{
