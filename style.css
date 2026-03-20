@@ -1,3 +1,9 @@
+/*Colours for this page
+ rgba(148, 114, 104, 0.5)Light Brown
+ rgba(243, 227, 178, 1)- Light Yellow
+ rgba(49, 15, 16, 1)- Dark Brown */
+
+
 *{
     margin: 0;
     padding: 0;
@@ -28,13 +34,26 @@ h1{
     font-size: 80px;
     margin: 100px;
     margin-top: 100px;
+    color: rgba(243, 227, 178, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     text-align: center;
+}
+
+.image-container{
+    background-image: url(Images/Comic\ Stand.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h2{
     font-size: 3.5rem;
     font-weight: 600;
-    color: darkolivegreen;
+    color: rgba(243, 227, 178, 1);
     margin: 1rem auto;
     margin-left: 1rem;
 }
@@ -75,7 +94,7 @@ h2{
 }
 
 .label{
-    color: darkolivegreen;
+    color: rgba(243, 227, 178, 1);
     font-size: 40px;
     margin-bottom: 10px;
     text-align: center;
@@ -101,7 +120,7 @@ h2{
     font-size: 1.05rem;
     font-weight: 500;
     text-decoration: none;
-    color:darkslategray;
+    color:white;
     transition: 0.3s;
 }
 
