@@ -8,6 +8,65 @@
     src: url('Fonts/AlfaSlabOne-Regular.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Cabinet Grotesk';
+    src: url('Fonts/CabinetGrotesk-Thin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabinet Grotesk';
+    src: url('Fonts/CabinetGrotesk-Extralight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabinet Grotesk';
+    src: url('Fonts/CabinetGrotesk-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabinet Grotesk';
+    src: url('Fonts/CabinetGrotesk-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabinet Grotesk';
+    src: url('Fonts/CabinetGrotesk-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabinet Grotesk';
+    src: url('Fonts/CabinetGrotesk-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabinet Grotesk';
+    src: url('Fonts/CabinetGrotesk-Extrabold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cabinet Grotesk';
+    src: url('Fonts/CabinetGrotesk-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -16,7 +75,6 @@
 }
 
 body{
-    font-family: 'Alfa Slab One', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgba(49, 15, 16, 1);
 }
 
@@ -28,6 +86,7 @@ nav{
     /*border-bottom: 1px solid white;*/
     backdrop-filter: blur 15px;
     margin-bottom: 0rem;
+     font-family: 'Cabinet Grotesk', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     display: flex;
     align-items: center;
@@ -35,12 +94,19 @@ nav{
 }
 
 h1{
-    font-size: 80px;
-    margin: 100px;
-    margin-top: 100px;
+    font-size: 100px;
+    margin: 80px;
+    margin-top: 80px;
     color: rgba(243, 227, 178, 1);
     text-shadow: 0px 5px 4px rgba(0, 0, 0, 10);
     text-align: left;
+    font-weight: 900;
+    font-family: 'Cabinet Grotesk', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-family: 'Cabinet Grotesk', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
 }
 
 .image-container{
@@ -70,6 +136,7 @@ h2{
     color: rgba(243, 227, 178, 1);
     margin: 1rem auto;
     margin-left: 1rem;
+    font-family: 'Cabinet Grotesk', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*.logo{
@@ -88,7 +155,7 @@ h2{
 .nav-links li a{
     position: relative;
     font-size: 1.25rem;
-    font-weight: 500;
+    font-weight: 700;
     text-decoration: none;
     color:white;
     transition: 0.3s;
@@ -113,6 +180,8 @@ h2{
     font-size: 40px;
     margin-bottom: 10px;
     text-align: center;
+    font-family: 'Cabinet Grotesk', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
     margin-top: 10px
 }
 
@@ -133,7 +202,7 @@ h2{
 .cat-links li a{
     position: relative;
     font-size: 1.05rem;
-    font-weight: 500;
+    font-weight: 700;
     text-decoration: none;
     color:white;
     transition: 0.3s;
@@ -147,7 +216,7 @@ img{
    max-width: 100%;
 }
 
-.favorite-stores{
+.all-stores{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
@@ -172,5 +241,4 @@ img{
 
 #map{
     height: 600px;
-
 }
