@@ -80,7 +80,7 @@ body{
 nav{
     width: 100%;
     padding: 1rem 5%;  
-    /*border-bottom: 1px solid white;*/
+    border-bottom: 1.5px solid rgba(243, 227, 178, 1);
      font-family: 'Cabinet Grotesk', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     display: flex;
@@ -112,10 +112,20 @@ p{
     display:table-row;
     justify-content: left;
     align-items: left;
+    color: rgba(243, 227, 178, 1);
+}
+
+.description{
+    margin-left: 50px;
+    /*margin-top: 10px;*/
+    margin-bottom: 10px;
+    color: rgba(243, 227, 178, 1);
+    text-align: left;
+    font-weight: 400;
+    font-family: 'Cabinet Grotesk', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .image-container-2{
-    background-image: url(Images/BMV_Bloor_Inside.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
