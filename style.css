@@ -237,7 +237,11 @@ h3{
     /*margin-top: 10px*/
 }
 
-
+.information{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
 
 .cat-links{
     list-style: none;
@@ -329,7 +333,7 @@ img{
   max-width: 1000px;
   position: relative;
   margin: auto;
-  height: 800px; /* Add height for images to display */
+  height: 500px; /* Add height for images to display */
     margin-top: 50px;
 }
 
@@ -337,12 +341,12 @@ img{
 .mySlides {
   display: none;
   height: 100%;
-  margin-left: 250px;
+  margin-left: 45px;
 }
 
 .mySlides img {
-  width: 70%;
-  height: 70%;
+  width: 90%;
+  height: 80%;
   object-fit: cover; /* Ensure images fit properly */
   
 }
@@ -367,6 +371,7 @@ img{
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+  margin-left: 100px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
