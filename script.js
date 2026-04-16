@@ -5,6 +5,7 @@
 
 if (document.getElementById('map')) {
     var map = L.map('map').setView([43.6531884,-79.3940591], 17);
+    
 
 L.maplibreGL({
   style: {
@@ -221,7 +222,7 @@ L.maplibreGL({
       "paint": {
         "fill-antialias": true,
         "fill-color": "rgb(234, 234, 229)",
-        "fill-outline-color": "rgb(219, 219, 218)"
+        "fill-outline-color": "rgba(50, 50, 24, 1)"
       }
     },
     {
@@ -910,9 +911,9 @@ L.maplibreGL({
         "visibility": "visible"
       },
       "paint": {
-        "text-color": "#bbb",
+        "text-color": "rgba(58, 52, 19, 1)",
         "text-halo-blur": 1,
-        "text-halo-color": "#fff",
+        "text-halo-color": "rgba(234, 229, 214, 1)",
         "text-halo-width": 2,
         "text-translate": [0, 0]
       }
@@ -1523,6 +1524,7 @@ L.maplibreGL({
     }
   ],
   "id": "positron"
+  
 },
   maplibreGL: maplibregl
 }).addTo(map);
