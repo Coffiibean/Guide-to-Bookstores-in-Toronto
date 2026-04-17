@@ -454,3 +454,15 @@ img{
   from {opacity: .4}
   to {opacity: 1}
 }
+
+@media (max-width: 850px) {
+    .information{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 40px;
+    }
+    .info{
+        margin-top: -0px;
+        margin-left: 10px;
+    }
+}
