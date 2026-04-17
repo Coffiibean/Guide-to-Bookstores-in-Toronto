@@ -1528,6 +1528,7 @@ L.maplibreGL({
 },
   maplibreGL: maplibregl
 }).addTo(map);
+var marker = L.marker([43.6523641,-79.4109387]).addTo(map);
 }
 
 let slideIndex = 1;
